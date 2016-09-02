@@ -307,9 +307,6 @@ public class PickerModule extends ReactContextBaseJavaModule implements Activity
         }
     }
 
-    @Override
-    public void onNewIntent(Intent intent) {
-    }
 
     private boolean permissionsCheck(Activity activity) {
         int cameraPermission = ActivityCompat.checkSelfPermission(activity, Manifest.permission.CAMERA);
